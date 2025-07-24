@@ -1,14 +1,4 @@
 import pandas as pd
-
-
-# Index(['type', 'amount', 'oldbalanceOrg', 'newbalanceOrig', 'oldbalanceDest', 'newbalanceDest']
-
-# scores finaux : 
-#accuracy : 0.999675
-#f1: 0.8686868686868687
-#precision : 0.9772727272727273
-#recall : 0.7818181818181819
-
 import tkinter as tk
 from tkinter import messagebox
 import joblib

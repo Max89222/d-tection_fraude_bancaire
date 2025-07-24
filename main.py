@@ -23,8 +23,6 @@ data = data.drop(['nameOrig', 'nameDest', 'step'], axis=1)
 X = data.drop('isFraud', axis=1)
 y = data['isFraud']
 
-print(X.columns)
-input()
 # train test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
